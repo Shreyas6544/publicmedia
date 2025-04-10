@@ -1,0 +1,208 @@
+
+.navbar{
+position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: lightgrey;
+  z-index: 99;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-expand-lg{
+    padding: 35px 70px;
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.8) ;
+}
+.navbar-expand-lg div img{
+    height: 70px;
+    width: auto;
+}
+.navbar-nav li{
+    font-weight: 600;
+    color: black;
+}
+.herosection{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.herosection div img{
+    height: 350px;
+    width: auto;
+    box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 30px;
+}
+.herosection .content{
+    line-height: 2.5;
+}
+.herosection .content span{
+    color: orange;
+    font-weight: 600;
+}
+.herosection .content h3{
+    font-weight: bolder;
+}
+.herosection .content button{
+    background: orange;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+}
+.services{
+    margin-top: 60px;
+    line-height: 2.2;
+}
+.services .services-heading{
+    color: orange;
+    font-weight: 600;
+}
+.services h4{
+    font-size: 35px;
+    font-weight: 200;
+}
+.services .cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.cards div span{
+    font-weight: 800;
+}
+.cards div button{
+    background: #390ed2;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.cards hr{
+    width: 2px;
+    background-color: black;
+    opacity: 1 !important;
+    border-top: 0 !important;
+    margin: 0;
+}
+.cards{
+    margin-top: 30px;
+}
+.about-us{
+    margin-top: 100px;
+    align-items: center;
+}
+footer{
+    display: flex;
+}
+footer div{
+    width: 33%;
+}
+footer div img{
+    height: 100px;
+    width: auto;
+}
+footer .all-services h6{
+    font-weight: 600;
+}
+footer .all-services ul{
+    padding: 0;
+    list-style-type:disc;
+}
+footer .digital h6{
+    font-weight: 600;
+}
+footer .digital ul{
+    padding: 0;
+    list-style-type:disc;
+}
+.contact{
+    margin: 50px auto;
+    padding: 0px 50px;
+    /* gap: 30px; */
+    display: flex;
+}
+.contact div div img{
+    height: auto;
+    width: 250px;
+}
+.contact div .card{
+    border: none;
+}
+.card ul {
+    padding:0 ;
+    list-style-type: none;
+}
+.card h6{
+    font-weight: 800;
+}
+.card .corporate{
+    line-height: 3;
+}
+.enquiry{
+    line-height: 2;
+}
+.enquiry input{
+    background-color: #f5f8fa;
+    border-color: grey;
+    border-radius: 10px;
+}
+.enquiry button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.fa-solid{
+    color: #7b0dbd;
+}
+.details ul{
+    font-weight: 600;
+    line-height: 2;
+}
+.content ul li{
+    list-style: none;
+}
+@media screen and (max-width: 480px) {
+    .navbar-expand-lg{
+        padding: 15px;
+        box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.8) ;
+    }
+    .herosection {
+        display: block !important;
+    }
+    .herosection div img{
+        width: 340px;
+        height: auto;
+        margin-top: 20px;
+    }
+    .services .cards{
+        display: block;
+    }
+    .contact{
+        display: block !important;
+    }
+    .herosection div img{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .herosection{
+        display: block;
+    }
+    .contact{
+        display: block;
+    }
+    .herosection div img{
+        margin-top: 10px;
+    }
+    .services .cards{
+        display: block;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .herosection div img{
+        height: 280px;
+    }
+}
